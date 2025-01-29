@@ -18,6 +18,7 @@ button {
     cursor: pointer;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 button:hover {
@@ -195,9 +196,6 @@ main {
     margin: 7.5rem 0rem;
 }
 
-.popular-destinations h2 {
-    margin-bottom: 4rem;
-}
 
 .cards {
     margin: auto;
@@ -206,8 +204,42 @@ main {
     justify-content: space-between;
 }
 
-.hotels-restaurants {
+.title {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.location {
+    display: flex;
+}
+
+.location img {
+    margin-right: 0.25rem;
+}
+
+.hotels-cards .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotels-restaurants .view {
+    color: #5243C2;
+    padding: 0.625rem;
+}
+
+.hotels-restaurants .view img {
+    margin-left: 0.25rem;
+}
+
+.rating {
+    cursor: pointer;
+}
+
+
+.hotels-cards .bottom .p-500 {
+    margin-top: 0.625rem;
+    margin-bottom: 0.75rem;
 }
