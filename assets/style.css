@@ -10,6 +10,14 @@ ul {
     list-style: none;
 }
 
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    font-weight: 600;
+}
+
 button {
     display: flex;
     align-items: center;
@@ -225,7 +233,8 @@ main {
     align-items: center;
 }
 
-.hotels-restaurants .view {
+.hotels-restaurants .view,
+.travel-tips .view {
     color: #5243C2;
     padding: 0.625rem;
 }
@@ -242,4 +251,64 @@ main {
 .hotels-cards .bottom .p-500 {
     margin-top: 0.625rem;
     margin-bottom: 0.75rem;
+}
+
+.travel-tips {
+    margin: 7.5rem 0rem;
+}
+
+
+
+.blog-container {
+    display: flex;
+}
+
+.blog {
+    width: 48.83%;
+    display: flex;
+}
+
+.travel-tips .right-side {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.travel-tips .right-side .bottom {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom .span-400 {
+    color: #878787;
+}
+
+.travel-tips .right-side h3 {
+    margin-bottom: 1rem;
+}
+
+.h3-600 {
+    font-weight: 600;
+}
+
+.travel-tips .right-side p {
+    color: #5B5B5B;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.date,
+.person,
+.comments {
+    display: flex;
+    align-items: center;
+}
+
+.blog .bottom img {
+    margin-right: 0.25rem;
 }
