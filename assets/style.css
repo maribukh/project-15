@@ -13,7 +13,9 @@ ul {
 li {
     cursor: pointer;
 }
-
+img {
+    cursor: pointer;
+}
 a {
     text-decoration: none;
     color: #5B5B5B;
@@ -163,6 +165,8 @@ header .right-side .profile-photo .photo {
     margin-bottom: 11.5rem;
 }
 
+
+
 .hero-button img {
     margin-right: 0.5rem;
 }
@@ -194,7 +198,8 @@ header .right-side .profile-photo .photo {
     padding: 1rem 1rem 1rem 1.25rem;
 }
 
-.search-button {
+.search-button,
+.subscribe-button {
     background-color: #7B61FF;
     padding: 1.125rem;
     border: none;
@@ -391,4 +396,38 @@ footer {
 
 .footer-subscribe {
     width: 28.19%;
+}
+
+.footer-column li {
+    margin-bottom: 0.75rem;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+form {
+    background-color: white;
+    padding-left: 1rem;
+    border-radius: 0.75rem;
+    margin-right: 1rem;
+}
+
+form img {
+    margin-right: 1rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
