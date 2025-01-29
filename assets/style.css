@@ -10,6 +10,40 @@ ul {
     list-style: none;
 }
 
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    background-color: #bcaeff;
+}
+
+.p-300 {
+    font-weight: 300;
+    color: #5B5B5B;
+}
+
+.p-400 {
+    font-weight: 400;
+}
+
+.cards .p-300,
+.p-400 {
+    font-size: 0.81rem;
+}
+
+
+
+.p-500 {
+    font-weight: 500;
+}
+
 .semibold {
     font-weight: 600;
 }
@@ -20,11 +54,12 @@ ul {
 
 .main-background {
     width: 100%;
-    padding-bottom: 48rem;
+    padding-bottom: 6.25rem;
     background-image: url(./images/main-background.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 0px 0px 54px 54px;
 }
 
 header {
@@ -36,6 +71,11 @@ header {
     justify-content: space-between;
     font-weight: lighter;
     color: white;
+}
+
+header p,
+li {
+    font-size: 0.875rem;
 }
 
 header .middle {
@@ -71,4 +111,103 @@ header .right-side .profile-photo .circle {
 
 header .right-side .profile-photo .photo {
     border-radius: 50%;
+}
+
+/* hero section */
+
+.hero-section {
+    margin: auto;
+}
+
+.hero-title {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-family: Poppins;
+    margin-top: 11.4375rem;
+    margin-bottom: 2rem;
+
+}
+
+.hero-title h1 {
+    line-height: 3.87rem;
+    font-size: 3rem;
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    width: 14.2%;
+    text-align: center;
+    margin: auto;
+    background-color: #7B61FF;
+    color: white;
+    font-size: 1.125rem;
+    padding: 1.5rem 0rem;
+    margin-bottom: 11.5rem;
+}
+
+.hero-button img {
+    margin-right: 0.5rem;
+}
+
+/* hero search */
+
+.hero-search {
+    width: 59.43%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+}
+
+.hero-search .left-side img {
+    margin-right: 1rem;
+}
+
+.search-location,
+.search-activity,
+.search-date,
+.search-guests {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1.25rem;
+}
+
+.search-button {
+    background-color: #7B61FF;
+    padding: 1.125rem;
+    border: none;
+    outline: none;
+}
+
+/* main */
+main {
+    width: 71.74%;
+    margin: auto;
+}
+
+.popular-destinations {
+    margin: 7.5rem 0rem;
+}
+
+.popular-destinations h2 {
+    margin-bottom: 4rem;
+}
+
+.cards {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hotels-restaurants {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
