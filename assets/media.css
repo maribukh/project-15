@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1800px) {
+  .hotels-cards .card .top {
+    width: 100%;
+  }
+  .hotels-cards .card .top img {
+    width: 100%;
+  }
+
+  .hotels-cards .card {
+    width: 22%;
+  }
+
+  .blog {
+    width: 48.83%;
+  }
+
+  .blog .left-side {
+    width: 40%;
+  }
+
+  .blog .left-side img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+    
+
+}
