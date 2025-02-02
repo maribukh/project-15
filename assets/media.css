@@ -144,6 +144,10 @@
     display: none;
   }
 
+  header .right-side {
+    justify-content: flex-end;
+  }
+
   header .right-side .menu-icon {
     margin-left: 1rem;
     margin-top: 0.5rem;
@@ -162,6 +166,10 @@
 
   .main-background {
     padding-bottom: 2rem !important;
+  }
+
+  .hero-title h1 {
+    font-size: 2rem;
   }
 
   .hero-search {
@@ -213,4 +221,102 @@
   form {
     width: 100%;
   }
+}
+
+@media only screen and (max-width: 675px) {
+  header .right-side {
+    width: 70%;
+  }
+
+  .hero-button {
+    width: 40%;
+    font-size: 1rem;
+  }
+
+  .hero-title h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-title {
+    margin-top: 4rem !important;
+  }
+
+  .popular-destinations p {
+    font-size: 0.7rem;
+  }
+
+  .popular-destinations h2 {
+    margin-bottom: 2rem;
+  }
+
+  table {
+    font-size: 0.8rem;
+  }
+
+  .title {
+    margin-bottom: 2rem;
+  }
+
+  .about-section {
+    flex-wrap: wrap;
+  }
+
+  .about-section .right-side {
+    display: none !important;
+  }
+
+  .footer-content {
+    padding: 1rem 0rem !important;
+  }
+
+  .about-section {
+    text-align: center;
+  }
+
+  .about-section h2 {
+    margin: auto;
+  }
+
+  .about-section .view {
+    margin: auto;
+  }
+
+  .popular-destinations {
+    margin: 2rem 0rem;
+  }
+
+  .content .right-side {
+    width: 100% !important;
+  }
+
+  .content .left-side {
+    width: 100% !important;
+  }
+
+
+  .content video,
+  table {
+    margin: 1rem 0rem;
+    border-radius: 0.5rem !important;
+  }
+
+  table td {
+    padding: 0.5rem 0rem;
+  }
+
+  .content {
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .popular-cards .card {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+
+  
+
 }
