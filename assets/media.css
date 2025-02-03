@@ -1,6 +1,4 @@
 @media only screen and (max-width: 1800px) {
-
-
   .popular-places .card {
     width: 15%;
   }
@@ -33,19 +31,41 @@
 }
 
 @media only screen and (max-width: 1439px) {
+  header .middle {
+    width: 66%;
+  }
   .hero-search {
     width: 75%;
   }
+  .about-section .right-side {
+    width: 100%;
+  }
 
+  .about-section .right-side img {
+    width: 70%;
+  }
+  .about-section .left-side {
+    width: 100%;
+  }
+
+  .footer-subscribe {
+    width: 30%;
+  }
 }
 
 @media only screen and (max-width: 1240px) {
   .hero-button {
     width: 27%;
   }
+  .footer-subscribe {
+    width: 32%;
+  }
 }
 
 @media only screen and (max-width: 1160px) {
+  header .middle {
+    width: ;
+  }
   .hero-search {
     padding: 0.01 !important;
   }
@@ -98,9 +118,7 @@
   }
 
   .animation img {
-    width: 10%;
-    position: relative;
-    bottom: -1.5rem;
+    /* width: 10%; */
   }
 
   .hero-title h1 {
@@ -130,11 +148,9 @@
   .footer-content {
     padding: 5.5rem 0rem;
   }
-
 }
 
 @media only screen and (max-width: 990px) {
-
   .search-button,
   .subscribe-button {
     padding: 0.7rem !important;
@@ -163,7 +179,6 @@
 }
 
 @media only screen and (max-width: 866px) {
-
   .main-background {
     padding-bottom: 2rem !important;
   }
@@ -221,6 +236,33 @@
   form {
     width: 100%;
   }
+
+  .content .right-side {
+    width: 100% !important;
+  }
+
+  .content .left-side {
+    width: 100% !important;
+  }
+
+  .content video,
+  table {
+    margin: 1rem 0rem;
+    border-radius: 0.5rem !important;
+  }
+
+  table td {
+    padding: 0.5rem 0rem;
+  }
+
+  .content {
+    flex-wrap: wrap;
+  }
+
+  .popular-places td,
+  .popular-places th {
+    padding-left: 1rem !important;
+  }
 }
 
 @media only screen and (max-width: 675px) {
@@ -229,7 +271,7 @@
   }
 
   .hero-button {
-    width: 40%;
+    width: 50%;
     font-size: 1rem;
   }
 
@@ -293,7 +335,6 @@
     width: 100% !important;
   }
 
-
   .content video,
   table {
     margin: 1rem 0rem;
@@ -317,6 +358,142 @@
     margin-bottom: 1rem;
   }
 
-  
+  .hero-search {
+    display: none;
+  }
 
+  .animation img {
+  }
+
+  form {
+    margin: 0.2rem !important;
+  }
+
+  input {
+    padding: 1rem 0rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hero-title h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 1.2rem;
+  }
+
+  .hero-button {
+    width: 40%;
+    padding: 0.5rem 1rem !important;
+    text-align: center;
+  }
+
+  .hero-button img {
+    display: none;
+  }
+
+  .hero-search {
+    display: none;
+  }
+
+  .animation img {
+  }
+
+  .popular-cards .card {
+    width: 45%;
+  }
+
+  .activities .cards {
+    flex-wrap: wrap;
+  }
+
+  .activities .card {
+    width: 45%;
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+  }
+
+  .about-section {
+    margin: 1rem auto;
+  }
+
+  header .right-side .profile-photo .photo {
+    width: 80%;
+  }
+
+  header p,
+  li {
+    font-size: 0.7rem;
+  }
+
+  header .left-side img {
+    width: 80%;
+  }
+
+  .about-section .left-side p {
+    font-size: 0.8rem !important;
+  }
+
+  .popular-places .view,
+  .activities .view,
+  .about-section .view {
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+  }
+
+  .title h2 {
+    font-size: 1.2rem !important;
+  }
+
+  .footer-links .footer-column {
+    width: 100%;
+    margin-bottom: 2.2rem;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    margin: 1rem auto !important;
+  }
+
+  .footer-social-media {
+    width: 50%;
+  }
+
+  .subscribe {
+    margin: auto;
+    width: 100%;
+  }
+
+  .popular-places {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hero-title h1 {
+    font-size: 1rem;
+  }
+  .hero-button {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .main-background {
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  .footer-subscribe,
+  .subscribe {
+    width: 100%;
+  }
+  header .right-side .text,
+  header .right-side .profile-photo {
+    display: none;
+  }
+
+  .animation img {
+  }
+
+  .activities .card {
+    width: 48%;
+  }
 }
