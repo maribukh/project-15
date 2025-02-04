@@ -75,6 +75,16 @@
 
   .footer-subscribe {
     width: 100%;
+    margin-top: 4rem;
+  }
+
+  header,
+  main {
+    width: 85% !important;
+  }
+
+  .footer-content {
+    width: 85% !important;
   }
 
 
@@ -92,12 +102,6 @@
 }
 
 @media only screen and (max-width: 1160px) {
-
-  header,
-  main,
-  .footer-content {
-    width: 85%;
-  }
 
   header .middle {
     width: 75%;
@@ -222,9 +226,14 @@
 
   .footer-brand {
     width: 100%;
+    margin: auto;
     text-align: center;
     margin-top: 6rem;
     order: 1;
+  }
+
+  .footer-brand img {
+    margin-left: 1rem;
   }
 
   input {
