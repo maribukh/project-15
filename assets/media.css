@@ -156,6 +156,11 @@
   .hero-title h1 {
     font-size: 2.4rem;
   }
+
+  .footer-column li {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 1060px) {
@@ -217,12 +222,31 @@
   .footer-brand {
     width: 100%;
     text-align: center;
+    margin-top: 6rem;
     order: 1;
+  }
+
+  input {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer-column li {
+    width: 0%;
+    text-align: none;
   }
 
   .footer-social-media {
     width: 20%;
     margin: auto;
+  }
+
+  .footer-links {
+    width: 50%;
+  }
+
+  .footer-subscribe {
+    width: 40%;
   }
 }
 
@@ -268,6 +292,11 @@
     text-align: center;
     margin: 3rem auto !important;
     width: 80%;
+  }
+
+  .footer-column li {
+    width: 100%;
+    text-align: center;
   }
 
   .footer-subscribe,
@@ -422,7 +451,13 @@
 
   .footer-links .footer-column {
     width: 100%;
-    margin-bottom: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer-subscribe,
+  .subscribe {
+    width: 100%;
+    margin: 0rem auto;
   }
 
   .footer-column ul {
@@ -452,8 +487,8 @@
   }
 
   .hero-button {
-    width: 40%;
-    padding: 0.5rem 1rem !important;
+    width: 60%;
+    padding: 0.8rem 0rem !important;
     text-align: center;
   }
 
@@ -498,6 +533,11 @@
     width: 80%;
   }
 
+  header .right-side .text,
+  header .right-side .profile-photo {
+    display: none;
+  }
+
   .about-section .left-side p {
     font-size: 0.8rem !important;
   }
@@ -517,6 +557,10 @@
   .popular-places {
     margin-bottom: 2rem;
   }
+
+  .main-background {
+    border-radius: 0px 0px 20px 20px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -529,19 +573,13 @@
     margin-bottom: 0.5rem !important;
   }
 
-  .main-background {
-    border-radius: 0px 0px 20px 20px;
-  }
 
   .footer-subscribe,
   .subscribe {
     width: 100%;
   }
 
-  header .right-side .text,
-  header .right-side .profile-photo {
-    display: none;
-  }
+
 
   .animation img {}
 
