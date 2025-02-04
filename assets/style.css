@@ -194,7 +194,7 @@ header .right-side .profile-photo .photo {
 
 /* animation */
 
-.animation {
+/* .animation {
   width: 100%;
   position: relative;
 }
@@ -213,7 +213,7 @@ header .right-side .profile-photo .photo {
   100% {
     left: 100%;
   }
-}
+} */
 
 /* hero search */
 
@@ -427,9 +427,7 @@ footer {
   flex-direction: column;
 }
 
-.footer-links .footer-column ul {
-
-}
+.footer-links .footer-column ul {}
 
 .footer-heading {
   margin-bottom: 1.25rem;
@@ -477,7 +475,7 @@ input {
 }
 
 .no-wrap {
-white-space: nowrap;
+  white-space: nowrap;
 }
 
 .d-none {
