@@ -477,6 +477,11 @@
     margin: auto;
     width: 100%;
   }
+
+  header .right-side .text,
+  header .right-side .profile-photo {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -533,10 +538,7 @@
     width: 80%;
   }
 
-  header .right-side .text,
-  header .right-side .profile-photo {
-    display: none;
-  }
+
 
   .about-section .left-side p {
     font-size: 0.8rem !important;
