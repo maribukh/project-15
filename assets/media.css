@@ -34,9 +34,11 @@
   header .middle {
     width: 66%;
   }
+
   .hero-search {
     width: 75%;
   }
+
   .about-section .right-side {
     width: 100%;
   }
@@ -44,6 +46,7 @@
   .about-section .right-side img {
     width: 70%;
   }
+
   .about-section .left-side {
     width: 100%;
   }
@@ -53,10 +56,38 @@
   }
 }
 
+
+/* @media only screen and (max-width: 1500px) {
+  .footer-content {
+    flex-wrap: wrap;
+    padding: 4.5rem 0rem;
+  }
+
+  .footer-links {
+    margin-top: 4rem;
+    order: 1;
+  }
+
+  .footer-brand {
+    margin-top: 4rem;
+    width: 50%;
+    order: 1;
+  }
+
+  .footer-subscribe {
+    width: 100%;
+    order: 0;
+  }
+
+
+
+} */
+
 @media only screen and (max-width: 1240px) {
   .hero-button {
     width: 27%;
   }
+
   .footer-subscribe {
     width: 32%;
   }
@@ -66,6 +97,7 @@
   header .middle {
     width: ;
   }
+
   .hero-search {
     padding: 0.01 !important;
   }
@@ -151,6 +183,7 @@
 }
 
 @media only screen and (max-width: 990px) {
+
   .search-button,
   .subscribe-button {
     padding: 0.7rem !important;
@@ -175,6 +208,21 @@
 
   .hero-search {
     width: 85%;
+  }
+
+  .footer-content {
+    flex-wrap: wrap;
+  }
+
+  .footer-brand {
+    width: 100%;
+    text-align: center;
+    order: 1;
+  }
+
+  .footer-social-media {
+    width: 20%;
+    margin: auto;
   }
 }
 
@@ -265,7 +313,7 @@
   }
 }
 
-@media only screen and (max-width: 675px) {
+@media only screen and (max-width: 600px) {
   header .right-side {
     width: 70%;
   }
@@ -362,8 +410,7 @@
     display: none;
   }
 
-  .animation img {
-  }
+  .animation img {}
 
   form {
     margin: 0.2rem !important;
@@ -371,6 +418,29 @@
 
   input {
     padding: 1rem 0rem;
+  }
+
+  .footer-links .footer-column {
+    width: 100%;
+    margin-bottom: 2.2rem;
+  }
+
+  .footer-column ul {
+    margin: auto;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    margin: 1rem auto !important;
+  }
+
+  .footer-social-media {
+    width: 50%;
+  }
+
+  .subscribe {
+    margin: auto;
+    width: 100%;
   }
 }
 
@@ -395,8 +465,7 @@
     display: none;
   }
 
-  .animation img {
-  }
+  .animation img {}
 
   .popular-cards .card {
     width: 45%;
@@ -444,24 +513,6 @@
     font-size: 1.2rem !important;
   }
 
-  .footer-links .footer-column {
-    width: 100%;
-    margin-bottom: 2.2rem;
-  }
-
-  .footer-links {
-    flex-wrap: wrap;
-    margin: 1rem auto !important;
-  }
-
-  .footer-social-media {
-    width: 50%;
-  }
-
-  .subscribe {
-    margin: auto;
-    width: 100%;
-  }
 
   .popular-places {
     margin-bottom: 2rem;
@@ -472,6 +523,7 @@
   .hero-title h1 {
     font-size: 1rem;
   }
+
   .hero-button {
     font-size: 0.8rem;
     margin-bottom: 0.5rem !important;
@@ -485,13 +537,13 @@
   .subscribe {
     width: 100%;
   }
+
   header .right-side .text,
   header .right-side .profile-photo {
     display: none;
   }
 
-  .animation img {
-  }
+  .animation img {}
 
   .activities .card {
     width: 48%;

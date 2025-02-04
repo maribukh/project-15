@@ -24,6 +24,7 @@ a {
   color: #5b5b5b;
   font-weight: 400;
   font-size: 0.81rem;
+  width: 100%;
 }
 
 a:hover {
@@ -421,6 +422,15 @@ footer {
   justify-content: space-between;
 }
 
+.footer-links .footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links .footer-column ul {
+
+}
+
 .footer-heading {
   margin-bottom: 1.25rem;
 }
@@ -429,18 +439,14 @@ footer {
   width: 28.19%;
 }
 
-.footer-column {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .footer-column li {
+  width: 100%;
   margin-bottom: 0.75rem;
+  text-align: center;
 }
 
-.footer-menu ul {
-  width: 100%;
-}
 
 .subscribe-form {
   display: flex;
@@ -470,6 +476,10 @@ input {
   border-radius: 0.75rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.no-wrap {
+white-space: nowrap;
 }
 
 .d-none {
