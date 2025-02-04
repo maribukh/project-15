@@ -482,6 +482,10 @@
   header .right-side .profile-photo {
     display: none;
   }
+
+  header .right-side .menu-icon {
+    margin-top: 0rem;
+  }
 }
 
 @media only screen and (max-width: 450px) {
