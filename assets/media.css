@@ -234,7 +234,15 @@
     order: 1;
   }
 
+<<<<<<< HEAD
   .subscribe input {
+=======
+  .footer-logo  {
+    margin-left: 1.3rem;
+  }
+
+  input {
+>>>>>>> ac171a95fe567d231884d5b8e2716381d994204c
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
