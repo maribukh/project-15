@@ -72,6 +72,7 @@ select,
   font-weight: 500;
 }
 
+
 .p-300 {
   font-weight: 300;
   color: #5b5b5b;
@@ -238,6 +239,7 @@ header .right-side .profile-photo .photo {
   border-radius: 0.75rem;
 }
 
+
 .hero-margin img {
   margin-right: 1rem;
 }
@@ -245,6 +247,7 @@ header .right-side .profile-photo .photo {
 .seacrh-column {
   flex-direction: column !important;
 }
+
 .seacrh-column .right-side {
   display: flex;
   align-items: center;
@@ -355,6 +358,7 @@ table {
   height: 100%;
   border-top-right-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
+  border-collapse: collapse;
 }
 
 .popular-places {
@@ -458,8 +462,7 @@ footer {
   flex-direction: column;
 }
 
-.footer-links .footer-column ul {
-}
+.footer-links .footer-column ul {}
 
 .footer-heading {
   margin-bottom: 1.25rem;
@@ -473,8 +476,7 @@ footer {
   margin-bottom: 0.75rem;
 }
 
-.footer-logo {
-}
+.footer-logo {}
 
 .subscribe-form {
   display: flex;
