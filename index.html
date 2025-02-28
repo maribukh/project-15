@@ -16,17 +16,19 @@
       <div class="main-background">
         <header>
           <div class="left-side">
-            <img src="./assets/images/logo.svg" alt="logo" />
+            <a class="no-opacity" href="#">
+              <img src="./assets/images/logo.svg" alt="logo" />
+            </a>
           </div>
           <div class="middle">
             <ul>
-              <li>Home</li>
-              <li>Hotels</li>
-              <li>Restourants</li>
-              <li>Tours</li>
-              <li>Destinations</li>
-              <li>Activities</li>
-              <li>Contact</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Hotels</a></li>
+              <li><a href="#">Restourants</a></li>
+              <li><a href="#">Tours</a></li>
+              <li><a href="#">Destinations</a></li>
+              <li><a href="#">Activities</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </div>
           <div class="right-side">
@@ -55,7 +57,8 @@
         </header>
         <div class="hero-section">
           <div class="hero-title">
-            <h1>Discover the most engaging places</h1>
+            <h1 class="discover">Discover the most engaging places</h1>
+            <h1 class="mobile d-none">Discover popular places</h1>
           </div>
           <button class="hero-button semibold">
             <img src="./assets/images/global.svg" alt="global" />Discover on 3D
@@ -69,39 +72,64 @@
           </div>
           <div class="hero-search">
             <div class="search-location">
-              <div class="left-side">
+              <div class="left-side hero-margin">
                 <img src="./assets/images/icons/location.svg" alt="location" />
               </div>
               <div class="right-side">
                 <p class="p-300">Location</p>
-                <p class="p-500">Explore nearby destinations</p>
+                <select name="" id="">
+                  <option value="">
+                    <p class="p-500">Explore</p>
+                  </option>
+                  <option value="">USA</option>
+                  <option value="">Italia</option>
+                  <option value="">China</option>
+                </select>
               </div>
             </div>
             <div class="search-activity">
-              <div class="left-side">
+              <div class="left-side hero-margin">
                 <img src="./assets/images/icons/ride.svg" alt="ride" />
               </div>
               <div class="right-side">
                 <p class="p-300">Activity</p>
-                <p class="p-500">All Activities</p>
+                <select name="" id="">
+                  <option value=""><p class="p-500">All Activities</p></option>
+                  <option value="">Skiing</option>
+                  <option value="">Hiking</option>
+                  <option value="">Climbing</option>
+                  <option value="">Sailing</option>
+                </select>
               </div>
             </div>
             <div class="search-date">
-              <div class="left-side">
+              <div class="left-side hero-margin">
                 <img src="./assets/images/icons/date.svg" alt="date" />
               </div>
               <div class="right-side">
                 <p class="p-300">When</p>
-                <p class="p-500">Choose a Date</p>
+                <input type="date" value="" max="2026-12-31" />
               </div>
             </div>
             <div class="search-guests">
-              <div class="left-side">
+              <div class="left-side hero-margin">
                 <img src="./assets/images/icons/group.svg" alt="date" />
               </div>
               <div class="right-side">
                 <p class="p-300">Guests</p>
-                <p class="p-500">1 guest</p>
+                <select name="" id="">
+                  <option value=""><p class="p-500">1 guest</p></option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                  <option value="">5</option>
+                  <option value="">6</option>
+                  <option value="">7</option>
+                  <option value="">8</option>
+                  <option value="">9</option>
+                  <option value="">10</option>
+                </select>
               </div>
             </div>
             <button class="search-button">
@@ -111,6 +139,71 @@
         </div>
       </div>
       <main>
+        <div class="hero-search seacrh-column d-none">
+          <div class="search-location">
+            <div class="left-side">
+              <img src="./assets/images/icons/location.svg" alt="location" />
+            </div>
+            <div class="right-side">
+              <p class="p-300">Location</p>
+              <select name="" id="">
+                <option value="">
+                  <p class="p-500">Explore</p>
+                </option>
+                <option value="">USA</option>
+                <option value="">Italia</option>
+                <option value="">China</option>
+              </select>
+            </div>
+          </div>
+          <div class="search-activity">
+            <div class="left-side">
+              <img src="./assets/images/icons/ride.svg" alt="ride" />
+            </div>
+            <div class="right-side">
+              <p class="p-300">Activity</p>
+              <select name="" id="">
+                <option value=""><p class="p-500">All Activities</p></option>
+                <option value="">Skiing</option>
+                <option value="">Hiking</option>
+                <option value="">Swimming</option>
+              </select>
+            </div>
+          </div>
+          <div class="search-date">
+            <div class="left-side">
+              <img src="./assets/images/icons/date.svg" alt="date" />
+            </div>
+            <div class="right-side">
+              <p class="p-300">When</p>
+              <input type="date" value="" max="2026-12-31" />
+            </div>
+          </div>
+          <div class="search-guests">
+            <div class="left-side">
+              <img src="./assets/images/icons/group.svg" alt="date" />
+            </div>
+            <div class="right-side">
+              <p class="p-300">Guests</p>
+              <select name="" id="">
+                <option value=""><p class="p-500">1 guest</p></option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+              </select>
+            </div>
+          </div>
+          <button class="search-button">
+            <img src="/assets/images/icons/seacrh.svg" alt="seacrh" />
+          </button>
+        </div>
         <div class="popular-destinations">
           <h2>Popular Destinations</h2>
           <div class="popular-cards cards">
@@ -336,7 +429,13 @@
               Subscribe on our destination review newsletters
             </h3>
             <div class="subscribe">
-              <form class="subscribe-form">
+              <form
+                class="subscribe-form"
+                action="/"
+                method="post" 
+                novalidate
+                autocomplete="off"
+              >
                 <img src="./assets/images/icons/email.svg" alt="" />
                 <input
                   type="email"

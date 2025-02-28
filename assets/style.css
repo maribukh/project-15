@@ -21,14 +21,25 @@ img {
 
 a {
   text-decoration: none;
-  color: #5b5b5b;
   font-weight: 400;
   font-size: 0.81rem;
   width: 100%;
 }
 
-a:hover {
-  color: #494949;
+header a {
+  opacity: 0.5;
+  color: white;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  line-height: 21px;
+  font-weight: 300 !important;
+}
+
+footer a {
+  color: #5b5b5b;
+}
+
+footer a:hover {
+  color: #b11e1e !important;
 }
 
 iframe {
@@ -39,12 +50,10 @@ li {
   text-align: center;
   width: 14.28%;
   cursor: pointer;
-  opacity: 0.5;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  line-height: 21px;
 }
 
-li:hover {
+header a:hover {
+  color: white;
   opacity: 1;
   font-weight: 400;
 }
@@ -62,6 +71,13 @@ button {
 
 button:hover {
   background-color: #bcaeff;
+}
+
+select,
+.hero-search input {
+  border: none;
+  outline: none;
+  font-weight: 500;
 }
 
 .p-300 {
@@ -195,7 +211,9 @@ header .right-side .profile-photo .photo {
 /* animation */
 
 .animation {
+  display: flex;
   width: 100%;
+
   position: relative;
 }
 
@@ -228,8 +246,29 @@ header .right-side .profile-photo .photo {
   border-radius: 0.75rem;
 }
 
-.hero-search .left-side img {
+.hero-margin img {
   margin-right: 1rem;
+}
+
+.seacrh-column {
+  flex-direction: column !important;
+}
+.seacrh-column .right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.seacrh-column .search-location,
+.seacrh-column .search-activity,
+.seacrh-column .search-date,
+.seacrh-column .search-guests,
+.seacrh-column .search-button {
+  flex-direction: column !important;
+  justify-content: center !important;
+  text-align: center;
+  margin: 1rem auto;
 }
 
 .search-location,
@@ -427,7 +466,8 @@ footer {
   flex-direction: column;
 }
 
-.footer-links .footer-column ul {}
+.footer-links .footer-column ul {
+}
 
 .footer-heading {
   margin-bottom: 1.25rem;
@@ -437,12 +477,12 @@ footer {
   width: 28.19%;
 }
 
-
-
 .footer-column li {
   margin-bottom: 0.75rem;
 }
 
+.footer-logo {
+}
 
 .subscribe-form {
   display: flex;
@@ -466,7 +506,7 @@ form img {
   margin-right: 1rem;
 }
 
-input {
+.subscribe input {
   border: none;
   outline: none;
   border-radius: 0.75rem;
@@ -476,6 +516,10 @@ input {
 
 .no-wrap {
   white-space: nowrap;
+}
+
+.no-opacity {
+  opacity: 100%;
 }
 
 .d-none {
