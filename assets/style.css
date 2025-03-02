@@ -24,6 +24,7 @@ a {
   font-weight: 400;
   font-size: 0.81rem;
   width: 100%;
+
 }
 
 header a {
@@ -80,6 +81,10 @@ select,
   font-weight: 500;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 962e0cd815a4fb7e07721a21ea96112f4534db75
 .p-300 {
   font-weight: 300;
   color: #5b5b5b;
@@ -246,6 +251,10 @@ header .right-side .profile-photo .photo {
   border-radius: 0.75rem;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 962e0cd815a4fb7e07721a21ea96112f4534db75
 .hero-margin img {
   margin-right: 1rem;
 }
@@ -253,6 +262,10 @@ header .right-side .profile-photo .photo {
 .seacrh-column {
   flex-direction: column !important;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 962e0cd815a4fb7e07721a21ea96112f4534db75
 .seacrh-column .right-side {
   display: flex;
   align-items: center;
@@ -363,6 +376,7 @@ table {
   height: 100%;
   border-top-right-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
+  border-collapse: collapse;
 }
 
 .popular-places {
@@ -481,8 +495,12 @@ footer {
   margin-bottom: 0.75rem;
 }
 
+<<<<<<< HEAD
 .footer-logo {
 }
+=======
+.footer-logo {}
+>>>>>>> 962e0cd815a4fb7e07721a21ea96112f4534db75
 
 .subscribe-form {
   display: flex;
